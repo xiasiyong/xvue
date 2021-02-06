@@ -60,6 +60,7 @@ class Compiler {
       node.innerHTML = newValue
     })
   }
+  // on
   onUpdater(node, value, key) {
     node.addEventListener('click', this.vm.$options.methods[key])
   }
